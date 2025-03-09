@@ -9,7 +9,7 @@ Flask Tiny App là một ứng dụng web nhỏ được xây dựng bằng Flas
 ## Hướng dẫn cài đặt và chạy
 1. Clone repository:
     ```bash
-    git clone https://github.com/TranQuangTrieu11/flask-tiny-app
+    git clone https://github.com/PhuBoySiTinh/flask-tiny-app-1
     ```
 
 2. Tạo virtual environment và cài đặt các dependencies:
