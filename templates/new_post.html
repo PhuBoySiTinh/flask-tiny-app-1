@@ -12,7 +12,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: var(--primary-color);">
         <div class="container">
-            <a class="navbar-brand" href="{{ url_for('index') }}"><i class="fas fa-blog"></i> MyBlog</a>
+            <a class="navbar-brand" href="{{ url_for('index') }}"><i class="fas fa-blog"></i> Blog Cua Boy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,7 +23,7 @@
                     </li>
                     {% if user and user.role == 'admin' %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('admin') }}"><i class="fas fa-user-shield"></i> Quản lý người dùng</a>
+                        <a class="nav-link" href="{{ url_for('admin') }}"><i class="fas fa-user-shield"></i> Setting</a>
                     </li>
                     {% endif %}
                 </ul>
@@ -36,7 +36,7 @@
 
     <!-- Main Content -->
     <div class="container py-5">
-        <h2 class="text-center mb-4"><i class="fas fa-plus"></i> Viết bài mới</h2>
+        <h2 class="text-center mb-4"><i class="fas fa-plus"></i> newpost</h2>
 
         <!-- Flash Messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
@@ -53,7 +53,7 @@
         <!-- New Post Form -->
         <form method="POST" action="{{ url_for('new_post') }}">
             <div class="mb-3">
-                <label for="title" class="form-label">Tiêu đề</label>
+                <label for="title" class="form-label">title</label>
                 <input type="text" class="form-control" id="title" name="title" required>
             </div>
             <div class="mb-3">

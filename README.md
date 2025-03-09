@@ -1,7 +1,10 @@
 # Flask Tiny App
 
 ## Thông tin cá nhân
-
+Ho Ten:[Luong Cong Phu Boy]
+Mssv: [22002515]
+Ho Ten: [Tran Anh Khoa]
+Mssv: [22000915]
 
 ## Mô tả project
 Flask Tiny App là một ứng dụng web nhỏ được xây dựng bằng Flask. Dự án này nhằm mục đích tạo ra một nền tảng blog đơn giản, nơi người dùng có thể đăng ký, đăng nhập, quản lý bài viết của mình và có một trang admin để quản lý người dùng.
