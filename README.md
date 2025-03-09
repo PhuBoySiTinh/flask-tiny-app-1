@@ -25,4 +25,4 @@ Flask Tiny App là một ứng dụng web nhỏ được xây dựng bằng Flas
     ```
 
 ## Link project đã triển khai
-[Link to deployed project]
+gihttps://github.com/PhuBoySiTinh/flask-tiny-app-1/tree/main
